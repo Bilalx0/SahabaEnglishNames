@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background: whitesmoke;
+    font-family: system-ui;
+}
+body h2 {
+    display: flex;
+    justify-content: center;
+    background:  #AA997D;
+    font-size: 1.5rem;
+    height: 70px;
+    letter-spacing: 2px;
+    align-items: center;
+    gap: 20px;
+  }
+
+.search-container{
+  background: #705948;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+input{
+  width: 22vw;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sahaba-container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 55px auto;
+    width: 90.5vw;
+    padding: 0;
+}
+
+.sahaba-container li{
+    list-style: none;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #2e2ebb;
+}
+
+
+ 
